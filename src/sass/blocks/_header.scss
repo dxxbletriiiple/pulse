@@ -30,9 +30,12 @@
         color: #FFFFFF;
         display: block;
         text-decoration: none;
+        margin-bottom: 5px;
+        transition: 0.3s all;
         &:hover {
             color: #fff;
             text-decoration: none;
+            transform: translate(-2px, -2px);
         }
     }
     &__contacts {

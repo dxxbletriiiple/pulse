@@ -38,9 +38,12 @@
     }
     &__content {
         margin-top: 60px;
-        display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        display: none;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 300px;
@@ -168,6 +171,9 @@
             text-decoration-line: underline;
             text-transform: uppercase;
             color: $main_color;
+            &:hover {
+                color: $main_color;
+            }
         }
     }
 }
