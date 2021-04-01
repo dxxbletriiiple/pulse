@@ -37,6 +37,14 @@
         }
     }
     &__icon {
-        animation: heartbeat 2s ease infinite;
+        &_cup {
+            animation: shakeY 2s ease infinite;
+        }
+        &_heart {
+            animation: heartbeat 2s ease infinite;
+        }
+        &_run {
+            animation: swing 2s ease infinite;
+        }
     }
 }
