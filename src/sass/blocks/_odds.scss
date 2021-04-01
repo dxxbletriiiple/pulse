@@ -36,4 +36,7 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        animation: heartbeat 2s ease infinite;
+    }
 }
