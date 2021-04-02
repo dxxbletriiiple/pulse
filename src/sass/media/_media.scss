@@ -404,4 +404,31 @@
         right: 20px;
         left: 20px
     }
+    .overlay {
+        .modal {
+            width: 90%;
+            &__close {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 40px;
+                line-height: 20px;
+                color: $main_color;
+                cursor: pointer;
+            }
+            .feed-form {
+                width: 100%
+            }
+            .button_submit {
+                width: 100%;
+                font-size: 13px;
+                &:hover {
+                    box-shadow: none;
+                    transform: none;
+                    background: $main_color;
+                    color: #FFF;
+                }
+            }
+        }
+    }
 }
