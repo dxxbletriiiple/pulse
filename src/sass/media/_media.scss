@@ -302,6 +302,7 @@
         }
     }
     .promo {
+        background: url(../../img/bg/main-bg-mini.jpg) center center/cover no-repeat;
         padding: 20px;
         &__header {
             text-align: left;
@@ -335,6 +336,7 @@
         }
     }
     .consultation {
+        background: url(../img/bg/bg2-mini.jpg) center center/cover no-repeat;
         padding: 20px;
         .title {
             font-size: 21px;
